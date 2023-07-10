@@ -1,0 +1,47 @@
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    background-position: center top 60%;
+    background-repeat: no-repeat;
+    background-color: #e5e5e5; /* Cinza claro como cor de fundo */
+  }
+  
+  .headerContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 120px; /* Adicione o valor de margem desejado */
+  }
+  
+  .container .headerContainer h1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: #f5b041; /* Tom de laranja/dourado */
+  }
+  
+  p {
+    margin-top: 15px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #ffffff; /* Branco */
+  }
+  
+  .headerContainer button {
+    color: black;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: #ffffff; /* Branco */
+    font-size: 20px;
+    background-color: #f5b041; /* Tom de laranja/dourado */
+  }
+  
